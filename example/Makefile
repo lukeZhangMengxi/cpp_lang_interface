@@ -1,5 +1,5 @@
 CXXFLAGS += -std=c++17
-TESTCMD = run
+TESTCMD = run.out
 
 all:
 	$(CXX) $(CXXFLAGS) -I../include test.cpp -o $(TESTCMD)
